@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import notesReducer from "./features/notesSlice";
+import todosReducer from "./features/todosSlice";
 
 export default configureStore({
   reducer: {
-    notes: notesReducer,
+    todos: todosReducer,
   },
 });
